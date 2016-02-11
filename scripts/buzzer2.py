@@ -3,7 +3,7 @@ import rospy
 from std_msgs.msg import UInt16
 
 def recv_buzzer(data):
-rospy.loginfo('type(data)')
+rospy.loginfo(type(data))
 rospy.loginfo(data.data)
 
 if __name__ == '__main__':
